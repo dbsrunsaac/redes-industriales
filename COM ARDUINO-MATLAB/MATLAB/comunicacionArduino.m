@@ -4,7 +4,7 @@ clc
 format short
 
 % Para MATLAB 2025, se recomienda usar serialport en lugar de serial (legacy)
-canal_serie = serialport('COM4', 9600);
+canal_serie = serialport('COM1', 9600);
 configureTerminator(canal_serie, "CR/LF");
 
 figure;
