@@ -27,7 +27,7 @@ while i < 1000
     % Leer datos del puerto serial
     datos_str = readline(canal_serie);
     datos = sscanf(datos_str, '%f %f');
-    
+    disp(datos_str);
     if length(datos) == 2
         y = datos(1);
         x = datos(2);
