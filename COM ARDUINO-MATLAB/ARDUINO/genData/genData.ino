@@ -1,6 +1,6 @@
 #include <math.h>
 
-float y;x|
+float y;
 float t = 0;
 
 void envia_datos(float x, float y) {

@@ -20,7 +20,7 @@ prop = animatedline('Color', 'b', 'LineWidth', 1);
 flush(canal_serie);
 clc;
 
-disp('Adquisición de datos de la tarjeta Arduino UNO: utilizar el sketch cap8_funciones');
+disp('Adquisición de datos desde la tarjeta Arduino');
 
 i = 1;
 while i < 1000
