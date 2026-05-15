@@ -1,1 +1,6 @@
+# Obsidian files
 .obsidian/
+
+# Proteus files
+Project Backups/
+*.pdsprj*

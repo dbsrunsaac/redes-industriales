@@ -2,7 +2,7 @@
 const int PIN_TX      = 4;   // Pin de transmisión (línea RS232 emulada)
 const int PIN_RX      = 5;   // Pin de recepción (bidireccional)
 const int PIN_BOTON   = 3;   // Pulsador: activa la transmisión
-const int PIN_LED_TX  = 13;  // LED indicador de transmisión activa
+const int PIN_LED_TX  = 2;  // LED indicador de transmisión activa
 
 const unsigned long BIT_DURATION = 1000; // 1 bit por segundo = 1000 ms
 
